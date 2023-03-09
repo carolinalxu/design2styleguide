@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  min-height: 100vh;
+  margin: -10px;
+  background-color: rgb(251, 251, 251);
+}
+
+.male__button {
+  text-decoration: none;
+  border: none;
+
+}
+
+.unisex__button {
+  text-decoration: none;
+  border: none;
+
+}
+
+.female__button {
+  text-decoration: none;
+  border: none;
+
+
+}
