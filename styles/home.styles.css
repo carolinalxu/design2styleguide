@@ -52,9 +52,7 @@ body {
 .menu {
     display: flex;
     flex-direction: row;
-    padding: 1rem;
-
-
+    padding: 2rem;
 }
 
 .pressed {
@@ -62,7 +60,6 @@ body {
     flex-wrap: wrap;
     color: var(--white);
     font-weight: bolder;
-
     padding: 1rem;
 }
 
@@ -70,8 +67,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     color: var(--white);
-
     padding: 1rem;
+    text-decoration: none;
 }
 
 .link:hover {
