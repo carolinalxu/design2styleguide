@@ -1,0 +1,17 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--vista-blue);
+    align-content: flex-start;
+}
+
+.navIcon {
+    width: 5rem;
+    height: auto;
+    padding: 1rem;
+}
+
+.wordMark {
+    width: 7rem;
+    height: auto;
+}

@@ -1,0 +1,129 @@
+:root {
+    --white: #FCECE2;
+    --coral-pink: #F9897A;
+    --vista-blue: #819DFF;
+    --savoy-blue: #5762B8;
+    --light-blue: #D9D9D9;
+    font-family: 'Figtree', sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--white);
+    margin: 0;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--savoy-blue);
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.navIcon {
+
+    width: 6rem;
+    height: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+
+.wordMark {
+    width: 7rem;
+    height: auto;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+
+
+}
+
+.pressed {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--white);
+    font-weight: bolder;
+
+    padding: 1rem;
+}
+
+.link {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--white);
+
+    padding: 1rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    background-color: var(--light-blue);
+    width: 85rem;
+    height: 80rem;
+    border-radius: 2rem;
+}
+
+.logoTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem;
+    font-size: 70px;
+    font-weight: 900;
+    color: var(--savoy-blue);
+}
+
+.logoFinal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75rem;
+    height: 20rem;
+    background-color: var(--white);
+    border-radius: 2rem;
+}
+
+.rowLogo {
+    height: 15rem;
+    padding: 2rem;
+}
+
+.columnLogo {
+    height: 13rem;
+    padding: 2rem;
+}
+
+.aboutLogo {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}

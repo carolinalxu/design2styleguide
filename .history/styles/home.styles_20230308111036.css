@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FCECE2;
+    margin: 0;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    background-color: #5762B8;
+
+}
+
+.navIcon {
+    width: 6.8rem;
+    height: auto;
+    padding: 1rem;
+}
+
+.wordMark {
+    width: 7rem;
+    height: auto;
+}
+
+.link {}
