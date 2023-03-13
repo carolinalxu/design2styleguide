@@ -500,6 +500,15 @@ body {
     width: 8rem;
 }
 
+.teamMembers{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    color: var(--white);
+    margin-right: 2rem;
+}
+
 .footerWords {
     height: 1rem;
     padding-top: 3rem;
@@ -508,7 +517,7 @@ body {
 .footerLink {
     display: flex;
     align-items: flex-end;
-    padding: 3rem;
+    padding: 4rem;
     padding-left: 5rem;
     padding-right: 5rem;
     color: var(--white);
