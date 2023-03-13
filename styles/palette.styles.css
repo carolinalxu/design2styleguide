@@ -116,30 +116,30 @@ body {
     align-items: center;
     margin: 4rem;
     height: 3rem;
-  }
-  
-  .dots {
+}
+
+.dots {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     margin-top: 2rem;
     gap: 10rem;
-  }
-  
-  .linen {
+}
+
+.linen {
     height: 15rem;
     width: 15rem;
     background-color: var(--white);
     border-radius: 50%;
-  }
-  
-  .linen:hover{
+}
+
+.linen:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.05);
-  }
+}
 
-  .linenPara{
+.linenPara {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -147,30 +147,30 @@ body {
     margin: 9rem;
     gap: 2px;
     color: var(--savoy-blue);
-  }
+}
 
-  .linenPara > h2 {
+.linenPara>h2 {
     font-weight: 300;
-  }
+}
 
-  .linenPara > p {
+.linenPara>p {
     font-size: 1.5rem;
     font-weight: 10;
-  }
+}
 
-  .coralPink {
+.coralPink {
     height: 15rem;
     width: 15rem;
     background-color: var(--coral-pink);
     border-radius: 50%;
-  }
-  
-  .coralPink:hover{
+}
+
+.coralPink:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.05);
-  }
+}
 
-  .coralPara{
+.coralPara {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -178,25 +178,25 @@ body {
     margin: 9rem;
     gap: 2px;
     color: var(--coral-pink);
-  } 
+}
 
-  .coralPara > h2 {
+.coralPara>h2 {
     font-weight: 300;
-  }
+}
 
-  .coralPara > p {
+.coralPara>p {
     font-size: 1.5rem;
     font-weight: 10;
-  }
+}
 
-  .vistaBlue {
+.vistaBlue {
     height: 15rem;
     width: 15rem;
     background-color: var(--vista-blue);
     border-radius: 50%;
-  }
-  
-  .vistaPara{
+}
+
+.vistaPara {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -204,30 +204,30 @@ body {
     margin: 9rem;
     gap: 2px;
     color: var(--vista-blue);
-  } 
+}
 
-  .vistaPara > h2 {
+.vistaPara>h2 {
     font-weight: 300;
-  }
+}
 
-  .vistaPara > p {
+.vistaPara>p {
     font-size: 1.5rem;
     font-weight: 10;
-  }
+}
 
-  .vistaBlue:hover{
+.vistaBlue:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.05);
-  }
+}
 
-  .savoyBlue {
+.savoyBlue {
     height: 15rem;
     width: 15rem;
     background-color: var(--savoy-blue);
     border-radius: 50%;
-  }
-  
-  .savoyPara{
+}
+
+.savoyPara {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -235,23 +235,23 @@ body {
     margin: 9rem;
     gap: 2px;
     color: var(--savoy-blue);
-  } 
+}
 
-  .savoyBlue:hover{
+.savoyBlue:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.05);
-  }
+}
 
-  .savoyPara > h2 {
+.savoyPara>h2 {
     font-weight: 300;
-  }
+}
 
-  .savoyPara > p {
+.savoyPara>p {
     font-size: 1.5rem;
     font-weight: 10;
-  }
+}
 
-  .containerTwo {
+.containerTwo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,7 +273,7 @@ body {
     color: var(--savoy-blue);
 }
 
-.buttons{
+.buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
@@ -282,7 +282,8 @@ body {
     width: 50rem;
 }
 
-.buttonsWhite1 , .buttonsWhite2{
+.buttonsWhite1,
+.buttonsWhite2 {
     background-color: var(--white);
     border-radius: 3rem;
     border: none;
@@ -292,42 +293,42 @@ body {
     color: var(--savoy-blue);
 }
 
-.buttonsWhite1:hover{
+.buttonsWhite1:hover {
     background-color: var(--savoy-blue);
     color: var(--white);
     transition: transform 0.7s ease-in-out;
     cursor: pointer;
 }
 
-.buttonsWhite2{
+.buttonsWhite2 {
     color: var(--coral-pink);
 }
 
-.buttonsWhite2:hover{
+.buttonsWhite2:hover {
     background-color: var(--coral-pink);
     color: var(--white);
     transition: transform 0.7s ease-in-out;
     cursor: pointer;
 }
 
-.buttonsColor1{
+.buttonsColor1 {
     background-color: var(--savoy-blue);
     border-radius: 3rem;
     border: none;
     font-family: Figtree;
-    font-weight: bold;   
+    font-weight: bold;
     font-size: 2em;
     color: var(--white);
 }
 
-.buttonsColor1:hover{
+.buttonsColor1:hover {
     background-color: var(--white);
     color: var(--savoy-blue);
     transition: transform 0.7s ease-in-out;
     cursor: pointer;
 }
 
-.buttonsColor2{
+.buttonsColor2 {
     background-color: var(--coral-pink);
     border-radius: 3rem;
     border: none;
@@ -337,19 +338,20 @@ body {
     color: var(--white);
 }
 
-.buttonsColor2:hover{
+.buttonsColor2:hover {
     background-color: var(--white);
     color: var(--coral-pink);
     transition: transform 0.7s ease-in-out;
     cursor: pointer;
 }
 
-.menuComps{
+.menuComps {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10rem;
 }
-.menuComp1{
+
+.menuComp1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -360,26 +362,26 @@ body {
     border-radius: 2rem;
 }
 
-.menuComp1 > h1 {
+.menuComp1>h1 {
     color: var(--savoy-blue);
     font-weight: 300;
 }
 
-.menuComp1 > h1:hover {
+.menuComp1>h1:hover {
     color: var(--savoy-blue);
     font-weight: bold;
     transition: transform 0.7s ease-in-out;
     cursor: pointer;
 }
 
-.menuComp2{
+.menuComp2 {
     background-color: var(--savoy-blue);
     height: 30rem;
     width: 20rem;
     border-radius: 2rem;
 }
 
-.menuComp2{
+.menuComp2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -390,19 +392,19 @@ body {
     border-radius: 2rem;
 }
 
-.menuComp2 > h1 {
+.menuComp2>h1 {
     color: var(--white);
     font-weight: 300;
 }
 
-.menuComp2 > h1:hover {
+.menuComp2>h1:hover {
     color: var(--white);
     font-weight: bold;
     transition: transform 0.7s ease-in-out;
     cursor: pointer;
 }
 
-.cards{
+.cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -411,7 +413,7 @@ body {
     gap: 5rem;
 }
 
-.card1{
+.card1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -422,18 +424,18 @@ body {
     border-radius: 2rem;
 }
 
-.card1:hover{
+.card1:hover {
     transition: transform 0.5s ease-in-out;
     transform: scale(1.05);
 }
 
-.cardInfo{
+.cardInfo {
     display: flex;
     flex-direction: column;
     color: var(--white);
 }
 
-.card1 > .placeholder{
+.card1>.placeholder {
     display: flex;
     justify-content: flex-start;
     margin-right: 3rem;
@@ -443,7 +445,7 @@ body {
     border-radius: 2rem;
 }
 
-.card2{
+.card2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -454,23 +456,23 @@ body {
     border-radius: 2rem;
 }
 
-.card2:hover{
+.card2:hover {
     transition: transform 0.5s ease-in-out;
     transform: scale(1.05);
 }
 
-.cardInfo{
+.cardInfo {
     display: flex;
     flex-direction: column;
     color: var(--white);
 }
 
-.cardInfo > p {
+.cardInfo>p {
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-.card2 > .placeholder{
+.card2>.placeholder {
     display: flex;
     justify-content: flex-start;
     margin-right: 3rem;
@@ -500,7 +502,7 @@ body {
     width: 8rem;
 }
 
-.teamMembers{
+.teamMembers {
     display: flex;
     justify-content: center;
     position: absolute;
