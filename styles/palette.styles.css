@@ -11,6 +11,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: var(--white);
     margin: 0;
@@ -214,6 +215,11 @@ body {
     font-weight: 10;
   }
 
+  .vistaBlue:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+  }
+
   .savoyBlue {
     height: 15rem;
     width: 15rem;
@@ -231,6 +237,11 @@ body {
     color: var(--savoy-blue);
   } 
 
+  .savoyBlue:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+  }
+
   .savoyPara > h2 {
     font-weight: 300;
   }
@@ -240,6 +251,234 @@ body {
     font-weight: 10;
   }
 
+  .containerTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: var(--light-blue);
+    width: 85rem;
+    height: 110rem;
+    border-radius: 2rem;
+}
+
+.elementsTitle {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    font-size: 70px;
+    font-weight: 900;
+    color: var(--savoy-blue);
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    margin: 6rem;
+    height: 12rem;
+    width: 50rem;
+}
+
+.buttonsWhite1 , .buttonsWhite2{
+    background-color: var(--white);
+    border-radius: 3rem;
+    border: none;
+    font-family: Figtree;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--savoy-blue);
+}
+
+.buttonsWhite1:hover{
+    background-color: var(--savoy-blue);
+    color: var(--white);
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.buttonsWhite2{
+    color: var(--coral-pink);
+}
+
+.buttonsWhite2:hover{
+    background-color: var(--coral-pink);
+    color: var(--white);
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.buttonsColor1{
+    background-color: var(--savoy-blue);
+    border-radius: 3rem;
+    border: none;
+    font-family: Figtree;
+    font-weight: bold;   
+    font-size: 2em;
+    color: var(--white);
+}
+
+.buttonsColor1:hover{
+    background-color: var(--white);
+    color: var(--savoy-blue);
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.buttonsColor2{
+    background-color: var(--coral-pink);
+    border-radius: 3rem;
+    border: none;
+    font-family: Figtree;
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.buttonsColor2:hover{
+    background-color: var(--white);
+    color: var(--coral-pink);
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.menuComps{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+}
+.menuComp1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    height: 30rem;
+    width: 20rem;
+    border-radius: 2rem;
+}
+
+.menuComp1 > h1 {
+    color: var(--savoy-blue);
+    font-weight: 300;
+}
+
+.menuComp1 > h1:hover {
+    color: var(--savoy-blue);
+    font-weight: bold;
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.menuComp2{
+    background-color: var(--savoy-blue);
+    height: 30rem;
+    width: 20rem;
+    border-radius: 2rem;
+}
+
+.menuComp2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--savoy-blue);
+    height: 30rem;
+    width: 20rem;
+    border-radius: 2rem;
+}
+
+.menuComp2 > h1 {
+    color: var(--white);
+    font-weight: 300;
+}
+
+.menuComp2 > h1:hover {
+    color: var(--white);
+    font-weight: bold;
+    transition: transform 0.7s ease-in-out;
+    cursor: pointer;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 5rem;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--vista-blue);
+    height: 15rem;
+    width: 35rem;
+    border-radius: 2rem;
+}
+
+.card1:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+}
+
+.card1 > .placeholder{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 3rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: var(--light-blue);
+    border-radius: 2rem;
+}
+
+.card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--savoy-blue);
+    height: 15rem;
+    width: 35rem;
+    border-radius: 2rem;
+}
+
+.card2:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+}
+
+.cardInfo > p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.card2 > .placeholder{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 3rem;
+    height: 10rem;
+    width: 10rem;
+    background-color: var(--light-blue);
+    border-radius: 2rem;
+}
 
 .footerBar {
     display: flex;
@@ -255,7 +494,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .footerIcon {
