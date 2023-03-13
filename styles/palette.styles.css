@@ -70,7 +70,6 @@ body {
     flex-wrap: wrap;
     color: var(--white);
     font-weight: bolder;
-
     padding: 1rem;
 }
 
@@ -89,14 +88,13 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin: 2rem;
     padding: 2rem;
     background-color: var(--light-blue);
     width: 85rem;
-    height: 90rem;
+    height: 95rem;
     border-radius: 2rem;
 }
 
@@ -109,12 +107,6 @@ body {
     font-size: 60px;
     font-weight: 900;
     color: var(--savoy-blue);
-    transition: transform .5s ease;
-}
-
-
-.paletteTitle:hover {
-    transform: scale(1.2);
 }
 
 .dot-container {
@@ -128,7 +120,9 @@ body {
   .dots {
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
+    margin-top: 2rem;
     gap: 10rem;
   }
   
@@ -137,33 +131,114 @@ body {
     width: 15rem;
     background-color: var(--white);
     border-radius: 50%;
-
   }
   
+  .linen:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+  }
+
+  .linenPara{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 9rem;
+    gap: 2px;
+    color: var(--savoy-blue);
+  }
+
+  .linenPara > h2 {
+    font-weight: 300;
+  }
+
+  .linenPara > p {
+    font-size: 1.5rem;
+    font-weight: 10;
+  }
+
   .coralPink {
     height: 15rem;
     width: 15rem;
     background-color: var(--coral-pink);
     border-radius: 50%;
-
   }
   
+  .coralPink:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+  }
+
+  .coralPara{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 9rem;
+    gap: 2px;
+    color: var(--coral-pink);
+  } 
+
+  .coralPara > h2 {
+    font-weight: 300;
+  }
+
+  .coralPara > p {
+    font-size: 1.5rem;
+    font-weight: 10;
+  }
+
   .vistaBlue {
     height: 15rem;
     width: 15rem;
     background-color: var(--vista-blue);
     border-radius: 50%;
-
   }
   
+  .vistaPara{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 9rem;
+    gap: 2px;
+    color: var(--vista-blue);
+  } 
+
+  .vistaPara > h2 {
+    font-weight: 300;
+  }
+
+  .vistaPara > p {
+    font-size: 1.5rem;
+    font-weight: 10;
+  }
+
   .savoyBlue {
     height: 15rem;
     width: 15rem;
     background-color: var(--savoy-blue);
     border-radius: 50%;
-
   }
   
+  .savoyPara{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 9rem;
+    gap: 2px;
+    color: var(--savoy-blue);
+  } 
+
+  .savoyPara > h2 {
+    font-weight: 300;
+  }
+
+  .savoyPara > p {
+    font-size: 1.5rem;
+    font-weight: 10;
+  }
 
 
 .footerBar {
